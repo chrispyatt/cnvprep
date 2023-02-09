@@ -16,25 +16,25 @@
                     "type": "string",
                     "format": "file-path",
                     "pattern": "^\\S+\\.tar.gz$",
-                    "description": "Path to reference genome.",
+                    "description": "Path to reference genome."
                 },
                 "bed": {
                     "type": "string",
                     "format": "file-path",
                     "pattern": "^\\S+\\.bed$",
-                    "description": "Path to capture bed file.",
+                    "description": "Path to capture bed file."
                 },
                 "map": {
                     "type": "string",
                     "description": "Mappability bed file.",
                     "format": "file-path",
-                    "pattern": "^\\S+\\.bed$",
+                    "pattern": "^\\S+\\.bed$"
                 },
                 "segdup": {
                     "type": "string",
                     "format": "file-path",
                     "pattern": "^\\S+\\.bed$",
-                    "description": "Segmental duplication bed file.",
+                    "description": "Segmental duplication bed file."
                 },
                 "interval_list": {
                     "type": "string",
